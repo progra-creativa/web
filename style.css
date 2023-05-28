@@ -117,4 +117,162 @@ p{
     color: white;
 
 }
+/* aqui empieza la animación de burbujas de fondo - nos guiamos con un video de Codytron */
+
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+    position: fixed;
+    bottom: -250;
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 15px;
+    height: 15px;
+    left: 5%;
+    animation-duration: 9s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 30px;
+    height: 30px;
+    left: 10%;
+    animation-duration: 7s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 8s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(4){
+    width: 30px;
+    height: 30px;
+    left: 20%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    width: 10x;
+    height: 10px;
+    left: 25%;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(6){
+    width: 25px;
+    height: 25px;
+    left: 30%;
+    animation-duration: 8s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(7){
+    width: 35px;
+    height: 35px;
+    left: 35%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(8){
+    width: 20;
+    height: 20px;
+    left: 40%;
+    animation-duration: 7s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(9){
+    width: 45px;
+    height: 45px;
+    left: 45%;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(10){
+    width: 15px;
+    height: 15px;
+    left: 50%;
+    animation-duration: 8s;
+    animation-delay: 4s;
+}
+.burbuja:nth-child(11){
+    width: 25px;
+    height: 25px;
+    left: 55%;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+.burbuja:nth-child(12){
+    width: 45px;
+    height: 45px;
+    left: 65%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+}
+.burbuja:nth-child(13){
+    width: 20px;
+    height: 20px;
+    left: 75%;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+.burbuja:nth-child(14){
+    width: 15px;
+    height: 15px;
+    left: 85%;
+    animation-duration: 7s;
+    animation-delay: 3s;
+}
+.burbuja:nth-child(15){
+    width: 40px;
+    height: 40px;
+    left: 95%;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(50px);
+        opacity: .4;
+    }
+    40%{
+      opacity:0;
+    }
+    100%{
+        bottom: 100vh;  
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(80px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* aqui termina la animacion burbujas de fondo */
+
+
 
