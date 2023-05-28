@@ -131,6 +131,11 @@ p{
     color: white;
 
 }
+.audio-player{
+  text-align: center;
+}
+
+
 /* aqui empieza la animación de burbujas de fondo - nos guiamos con un video de Codytron */
 
 .burbuja{
