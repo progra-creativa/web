@@ -1,3 +1,7 @@
+html{
+  cursor: none;  
+}
+
 body{
   width: 99%;
   height: 100%;
@@ -84,15 +88,7 @@ h2{
   align-items: center; /* Centra verticalmente */
   height: 100px; /* Ajusta la altura según tus necesidades */
 }
-.button-container button {
-  border: 5px;
-  border-radius: 5px; /* esquinas redondeadas */
-  background: skyblue;
-  color: white;
-  font-size: 16px; /* tamaño de la fuente*/
-  font-weight: bold;
-  margin: 5px; /*el margen  */
-}
+
 
 .flex-container{
  
@@ -282,9 +278,8 @@ p{
 }
 /* aqui termina la animacion burbujas de fondo */
 
-  img {
+img {
   position: absolute;
   transform: translate(-50%, -50%);
 }
-
 
