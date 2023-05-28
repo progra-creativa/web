@@ -6,7 +6,7 @@ body{
   width: 99%;
   height: 100%;
   background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 5%, rgba(60,122,195,1) 57%, rgba(42,39,103,1) 100%);  
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 7%, rgba(60,122,195,1) 57%, rgba(42,39,103,1) 100%); 
 }
 
 .waves {
@@ -63,24 +63,23 @@ body{
 }
 
 h1 {
+  padding: 30px;
   text-align: center;
-  font-family: 'Comfortaa', cursive;
-  margin: 30px;
-  font-size: 40px;
+  font-family: 'IM Fell English SC', serif;
+  margin: 0px;
+  font-size: 68px;
   font-weight: 700px;
-  color: powderblue;
+  color: lightsteelblue;
+
 }
 
 
 h2{
   align-content: center;
-  padding: 20px;
-  font-family: 'Comfortaa', cursive;
-  
-  mastealblue;10px;
- text-align: center;
-  font-size: 10px;
-   color: black;
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
+  font-size: 40px;
+  color: lightsteelblue;
 }
 .button-container {
   display: flex;
@@ -92,11 +91,12 @@ h2{
 .button-container button {
   border: 15px;
   border-radius: 5px; /* esquinas redondeadas */
-  background:teal;
-  color: white;
+  background:lightsteelblue;
   font-size: 16px; /* tamaño de la fuente*/
   font-weight: bold;
   margin: 5px; /*el margen  */
+  color: white;
+
 }
 
 
@@ -124,10 +124,10 @@ h2{
 }
 p{
    text-align: center;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'IM Fell English SC', serif;
   margin: 30px;
-  font-size: 20px;
-  font-weight: 700px;
+  font-size: 35px;
+  
     color: white;
 
 }
