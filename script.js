@@ -5,3 +5,24 @@ $(document).ready(function(){
     $('img').css('top',e.pageY+"px");
   });
 });
+//Efecto de movimiento y opacidad para los parrafos, basado en un video tutorial de Oscar Leuro
+window.addEventListener('scroll',function(){
+
+  var alobj = document.querySelectorAll('.caja'); 
+
+    for(var i = 0; i< alobj.length; i++){
+
+      var altura = window.innerHeight/1.8;
+      var distancia = alobj[i].getBoundingClientRect().top;
+      alobj[i].classList.add('transform_up')
+
+
+      console.log(altura);
+      console.log(distancia);
+      if (distancia<= altura){
+        alobj[i].classList.add('aparece');
+      }
+
+        }
+
+})
