@@ -282,5 +282,9 @@ p{
 }
 /* aqui termina la animacion burbujas de fondo */
 
+  img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
 
 
