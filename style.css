@@ -1,5 +1,5 @@
 html{
-  cursor: none;  
+  cursor: none;   /* para usar solo imagen en cursor*/
 }
 
 body{
@@ -8,17 +8,17 @@ body{
   background: rgb(255,255,255);
 background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 7%, rgba(60,122,195,1) 57%, rgba(42,39,103,1) 100%); 
 }
+
+/* Animacion olas*/
+
 .waves {
   position:relative;
   width: 100%;
   height:30vh;
-  margin-bottom:-30x; /*Fix for safari gap*/
+  margin-bottom:-30x; /*Arreglo para safari*/
   min-height:300px;
   max-height:100px;
 }
-
-/* Animacion olas*/
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
@@ -63,6 +63,8 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 
     font-size:24px;
   }
 }
+/* fin animacion olas*/
+/* inicio configuracion de texto*/
 h1 {
   padding: 30px;
   text-align: center;
@@ -108,6 +110,7 @@ h2{
   opacity: 2;
   transform: :none
 }
+/*  fin de efecto movimiento y opacidad para los parrafos*/
 
 p{
    text-align: center;
@@ -115,9 +118,6 @@ p{
   margin: 30px;
   font-size: 35px; 
   color: white;
-}
-.audio-player{
-  text-align: center;
 }
 h3{
   text-align: center;
@@ -135,6 +135,16 @@ h4{
   font-size: 15px;
   color: lightsteelblue;
 }
+/* fin configuracion de texto*/
+
+/* inicio configuracion audio*/
+
+.audio-player{
+  text-align: center;
+}
+/* fin configuracion audio*/
+
+
 /* aqui empieza la animación de burbujas de fondo - nos guiamos con un video de Codytron */
 .burbuja{
     border-radius: 50%;
@@ -279,11 +289,17 @@ h4{
 }
 /* aqui termina la animacion burbujas de fondo */
 
+/* imagen del cursor */
 img {
   position: absolute;
   width: 70px;
   transform: translate(-50%, -50%);
 }
+/* aqui termina imagen del cursor */
+
+/* cambios en footer */
 footer{
 padding: 80px;
 }
+/*fin codigo css*/
+
