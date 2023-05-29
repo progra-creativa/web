@@ -5,7 +5,7 @@ $(document).ready(function(){
     $('img').css('top',e.pageY+"px");
   });
 });
-//Efecto de movimiento y opacidad para los parrafos, basado en un video tutorial de Oscar Leuro
+//Efecto de movimiento y opacidad para los parrafos, basado en un video tutorial de Oscar Leuro: https://www.youtube.com/watch?v=Uwiq8SmQcEw&list=LL&index=1&t=1424s
 window.addEventListener('scroll',function(){
 
   var alobj = document.querySelectorAll('.caja'); 
