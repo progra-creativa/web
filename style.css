@@ -1,6 +1,7 @@
 html{
   cursor: none;  
 }
+
 body{
   width: 99%;
   height: 100%;
@@ -54,7 +55,11 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 
   .content {
     height:30vh;
   }
+  header{
+    margin-top: 200px;
+  }
   h1 {
+    padding: 80px;
     font-size:24px;
   }
 }
@@ -63,7 +68,7 @@ h1 {
   text-align: center;
   font-family: 'IM Fell English SC', serif;
   margin: 0px;
-  font-size: 68px;
+  font-size: 74px;
   font-weight: 700px;
   color: lightsteelblue;
 }
@@ -71,10 +76,11 @@ h2{
   align-content: center;
   font-family: 'IM Fell English SC', serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
   color: lightsteelblue;
   margin-left: 120px;
   margin-right: 120px;
+  padding: 50px;
 }
 .flex-container{
  
