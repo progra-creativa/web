@@ -1,14 +1,12 @@
 html{
   cursor: none;  
 }
-
 body{
   width: 99%;
   height: 100%;
   background: rgb(255,255,255);
 background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 7%, rgba(60,122,195,1) 57%, rgba(42,39,103,1) 100%); 
 }
-
 .waves {
   position:relative;
   width: 100%;
@@ -18,8 +16,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 
   max-height:100px;
 }
 
-
-/* Animation olas*/
+/* Animacion olas*/
 
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
@@ -48,7 +45,7 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 
     transform: translate3d(85px,0,0);
   }
 }
-/*Shrinking for mobile*/
+/*para movil*/
 @media (max-width: 768px) {
   .waves {
     height:40px;
@@ -61,7 +58,6 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 
     font-size:24px;
   }
 }
-
 h1 {
   padding: 30px;
   text-align: center;
@@ -70,10 +66,7 @@ h1 {
   font-size: 68px;
   font-weight: 700px;
   color: lightsteelblue;
-
 }
-
-
 h2{
   align-content: center;
   font-family: 'IM Fell English SC', serif;
@@ -83,25 +76,6 @@ h2{
   margin-left: 120px;
   margin-right: 120px;
 }
-.button-container {
-  display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  height: 100px; /* Ajusta la altura según tus necesidades */
-}
-
-.button-container button {
-  border: 15px;
-  border-radius: 5px; /* esquinas redondeadas */
-  background:lightsteelblue;
-  font-size: 16px; /* tamaño de la fuente*/
-  font-weight: bold;
-  margin: 5px; /*el margen  */
-  color: white;
-
-}
-
-
 .flex-container{
  
   display: flex;
@@ -109,16 +83,11 @@ h2{
   flex-direction: column;
   flex-wrap: wrap;
   padding: 0px;
-
 }
-
 .caja{
-  
   background-color: rgb(245, 245, 245,0);
-  
   display: flex;
   text-align: center;
- 
   margin: 300px;
   justify-content: center;
   opacity: .1;
@@ -134,14 +103,12 @@ h2{
   transform: :none
 }
 
-
 p{
    text-align: center;
   font-family: 'IM Fell English SC', serif;
   margin: 30px;
-  font-size: 35px;
-  
-    color: white;
+  font-size: 35px; 
+  color: white;
 }
 .audio-player{
   text-align: center;
@@ -160,9 +127,7 @@ h4{
   font-size: 15px;
   color: lightsteelblue;
 }
-
 /* aqui empieza la animación de burbujas de fondo - nos guiamos con un video de Codytron */
-
 .burbuja{
     border-radius: 50%;
     background: #fff;
@@ -171,7 +136,6 @@ h4{
     bottom: -250;
     animation: burbujas 3s linear infinite ;
 }
-
 .burbuja:nth-child(1){
     width: 15px;
     height: 15px;
@@ -179,7 +143,6 @@ h4{
     animation-duration: 9s;
     animation-delay: 3s;
 }
-
 .burbuja:nth-child(2){
     width: 30px;
     height: 30px;
@@ -187,7 +150,6 @@ h4{
     animation-duration: 7s;
     animation-delay: 5s;
 }
-
 .burbuja:nth-child(3){
     width: 20px;
     height: 20px;
@@ -195,7 +157,6 @@ h4{
     animation-duration: 8s;
     animation-delay: 7s;
 }
-
 .burbuja:nth-child(4){
     width: 30px;
     height: 30px;
@@ -203,7 +164,6 @@ h4{
     animation-duration: 6s;
     animation-delay: 3s;
 }
-
 .burbuja:nth-child(5){
     width: 10x;
     height: 10px;
@@ -211,7 +171,6 @@ h4{
     animation-duration: 10s;
     animation-delay: 1s;
 }
-
 .burbuja:nth-child(6){
     width: 25px;
     height: 25px;
@@ -219,7 +178,6 @@ h4{
     animation-duration: 8s;
     animation-delay: 5s;
 }
-
 .burbuja:nth-child(7){
     width: 35px;
     height: 35px;
@@ -227,7 +185,6 @@ h4{
     animation-duration: 6s;
     animation-delay: 5s;
 }
-
 .burbuja:nth-child(8){
     width: 20;
     height: 20px;
@@ -235,7 +192,6 @@ h4{
     animation-duration: 7s;
     animation-delay: 5s;
 }
-
 .burbuja:nth-child(9){
     width: 45px;
     height: 45px;
@@ -243,7 +199,6 @@ h4{
     animation-duration: 5s;
     animation-delay: 2s;
 }
-
 .burbuja:nth-child(10){
     width: 15px;
     height: 15px;
@@ -286,7 +241,6 @@ h4{
     animation-duration: 6s;
     animation-delay: 4s;
 }
-
 @keyframes burbujas{
     0%{
         bottom: 0;
@@ -304,7 +258,6 @@ h4{
         opacity: 0;
     }
 }
-
 @keyframes movimiento{
     0%{
         transform: translateY(0);
