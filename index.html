@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--  links -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">  <!--nueva font-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <link rel = "icon" href = "https://www.svgrepo.com/show/481630/whale-6.svg" 
+  type = "image/x-icon"> <!-- icono de la pestaña-->
+
+  <title>Ballena Solitaria</title>
+
+</head>
+
+<body>
+
+
+  <img src="cursor.svg" alt="" /> <!--  imagen cursor-->
+
+  <div id='contenedor'> <!--  envuelve todo -->
+
+ <header>
+
+    <script src="script.js"></script>
+
+     <h1>La ballena solitaria </h1>
+
+     <div class="caja>">  <h2>Una ballena común emite un sonido de 15 a 25 Hz. Las ballenas azules pueden emitir sonidos en un rango un poco más amplio, de entre 10 y 40 Hz. </h2>
+     </div>
+  <!--  inicio audio 1 -->
+
+      <div class="audio-player">
+        <audio controls>
+        <source src="ballenanormal.mp3" type="audio/mpeg">
+        </audio>
+
+      </div>
+      <h4>Sonido de ballenas<h4>
+    <!--  fin audio 1 -->
+
+    <div class="inner-header flex"></div>
+    <div>
+      <!--inicio de las olas,codigo open source (https://codepen.io/goodkatz/pen/LYPGxQz)-->
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(188,217,251,1)" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(188,217,251,0.7)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(188,217,251,1)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(188,217,251,1)" />
+      </g>
+      </svg>
+    </div>
+    <!--final de las olas-->
+     
+    </div>
+
+ </header>
+   
+<section class="flex-container">
+  <div class="caja">
+     <p>Un equipo de biólogos la Woods Hole Oceanographic Institution (WHOI) se sorprendió al detectar, en la década de los 90, un sonido todavía más alto proveniente del fondo del Océano Pacífico.</p> 
+  </div>
+  <object data = 'pez.png' width="1430" height="216" margin="0"> <!--Animación 1-->
+    <img src="pez.png">
+  </object>
+  <div class="caja">
+      <p>Años después, la misma frecuencia se detectó en diversas ocasiones. Aquél sonido fue descrito como el aliento más bajo de una tuba, ya imperceptible para el oído humano. Desde entonces, los científicos relacionaron estos registros con los cantos de las ballenas, que se comunican entre sí con frecuencias específicas.</p>
+  </div>
+  <object data = 'ballenas.png' width="1430" height="225" margin="0"><!--Animación 2-->
+    <img src="ballenas.png">
+  </object>
+  <div class="caja">
+      <p>Utilizando un sistema de detección soviético, los científicos de WHOI registraron una frecuencia de 52Hz. Siguieron el rastro auditivo y éste los condujo a una ballena. Al inicio, se vieron renuentes a aceptar que proviniera de un mamífero así —dada la frecuencia percibida—, pero eventualmente se dieron cuenta de que el origen era ése.</p>
+  </div>
+    <object data = 'sub.png' width="1430" height="421" margin="0"><!--Animación 3-->
+    <img src="sub.png">
+  </object>
+  <div class="caja">
+      <p>Al principio, no sabían ni el sexo ni la especie del animal. Se pensó que podría estar malformada de nacimiento, o que podría ser un híbrido producto de ballenas distintas. Sin embargo, se dieron cuenta de que se trataba de un espécimen único, que cantaba en frecuencias nunca antes vistas.</p>
+  </div>
+  <object data = 'ballena.png' width="1430" height="1000" margin="0"><!--Animación 4-->
+    <img src="ballena.png">
+  </object>
+  <div class="caja">
+     <p>Se sabe que las ballenas emiten este tipo de cantos cuando están buscando pareja, o quieren comunicarse con otros miembros de su manada. El caso de la ballena 52Hz no es diferente, según las investigaciones que se condujeron en torno a este caso. Los científicos que siguieron la pista de este ejemplar aseguran que la baja frecuencia de su canto se puede interpretar como una canción de amor no correspondido. Como si se encontrara en un cuarto en completa soledad, la ballena emitía su canto como en una cámara de eco: sin respuesta.</p>
+  </div>
+
+  <!--  inicio audio 2 -->
+  <div class="audio-player">
+    <audio controls>
+      <source src="ballena52.mp3" type="audio/mpeg">
+    </audio>
+    <h3>El audio del canto fue grabado en el noreste del Océano Pacífico. Ha sido acelerado 10 veces, aumentando la frecuencia hasta los 520 Hz.</h3>
+  </div>
+  <!--  fin audio -->
+
+  <div class="caja">
+       <p>Tres década después de su primera detección, el canto de la ballena los 52Hz sigue siendo registrado esporádicamente y los científicos consideran que vive por su cuenta. La hipótesis más convincente en la actualidad es que este cetáceo se desplaza en soledad durante sus recorridos migratorios entre Canadá y Estados Unidos.</p>
+  </div>
+<object data = 'cangrejo.png' width="50" height="514" margin="0"><!--Animación 5-->
+    <img src="cangrejo.png">
+  </object>
+  <div class="caja">
+       <p>Sin embargo, otras teorías más recientes apoyadas por registros de frecuencias similares descubiertas al unísono en California durante 2010, llevaron a los biólogos a especular con que la ballena de los 52 Hz probablemente no esté sola y los cantos sean emitidos por varios animales. Al día de hoy, aún no existe una certeza capaz de explicar el origen de la ballena de los 52 Hz, poseedora del canto más solitario del mundo.</p>
+  </div>
+  <object data = 'ballenans.png' width="1430" height="1000" margin="0"><!--Animación 6-->
+    <img src="ballenans.png">
+  </object>
+
+    <!--  inicio burbujas -->
+
+    <div class="burbujas">
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>
+    <div class="burbuja"></div>   
+    <div class="burbuja"></div>   
+  </div>
+
+  <!--  fin burbujas -->
+
+</section>  
+  <footer> 
+    <h3>Programación Creativa para Diseño</h3>
+    <h3>Autores</h3>
+    <h3>Ljubedsa Calderón </h3>
+    <h3>Teresita Ilabaca</h3>
+    <h3>Gabriela Mellado </h3>
+    <h3>Daniel Rojas </h3>
+    <h3>Basado en un artículo de NatGeo </h3>
+  </footer> 
+
+</div><!-- cierre del contenedos -->
+</body>
+</html>
