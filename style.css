@@ -123,6 +123,8 @@ h3{
   text-align: center;
   font-family: 'IM Fell English SC', serif;
   margin: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
   font-size: 25px;
   color: lightsteelblue;
 }
@@ -279,7 +281,7 @@ h4{
 
 img {
   position: absolute;
-  width: 70px;
+  width: 200px;
   transform: translate(-50%, -50%);
 }
 footer{
