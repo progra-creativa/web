@@ -6,8 +6,10 @@ body{
   width: 99%;
   height: 100%;
   background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 7%, rgba(60,122,195,1) 57%, rgba(42,39,103,1) 100%); 
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(188,217,251,1) 6%, rgba(60,122,195,1) 57%, rgba(42,39,103,1) 100%);
 }
+
+  }
 
 /* Animacion olas*/
 
@@ -82,7 +84,6 @@ h2{
   color: lightsteelblue;
   margin-left: 120px;
   margin-right: 120px;
-  padding: 50px;
 }
 .flex-container{
  
@@ -112,6 +113,7 @@ h2{
 }
 /*  fin de efecto movimiento y opacidad para los parrafos*/
 
+
 p{
    text-align: center;
   font-family: 'IM Fell English SC', serif;
@@ -128,10 +130,11 @@ h3{
   font-size: 25px;
   color: lightsteelblue;
 }
+
 h4{
   text-align: center;
   font-family: 'IM Fell English SC', serif;
-  margin: 30px;
+
   font-size: 15px;
   color: lightsteelblue;
 }
